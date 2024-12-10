@@ -1,4 +1,5 @@
-# abhiQrGenerator
-Abhi QR Generator<br/>
-Design and Developed by Deepak Kumar<br/>
-https://adtech1.netlify.app
+# abhiQRv2
+Abhi QR v2.0<br/>
+Design by Abhi Verma and Developed by Deepak Kumar<br/>
+https://deepakk1.netlify.app/
+
