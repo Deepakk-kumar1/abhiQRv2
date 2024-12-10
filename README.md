@@ -1,5 +1,6 @@
 # abhiQRv2
-<p>Design by <b>Abhi Verma</b> by Developed by <b>Deepak Kumar<b><br/>
+<p>UI Design by <b>Abhi Verma</b><br/>
+Developed by <b>Deepak Kumar<b></p>
 
 # ourTeam
 <ul>
