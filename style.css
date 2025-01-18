@@ -1,19 +1,18 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Neonderthaw&family=Offside&family=Protest+Guerrilla&family=Lavishly+Yours&family=Rubik+Dirt&family=Uncial+Antiqua&family=Modak&family=Euphoria+Script&family=Yeseva+One&family=Sansita+Swashed&family=Abril+Fatface&family=Rubik+Wet+Paint&display=swap');
+
+* {
   margin: 0; 
   padding: 0;
   font-family: Montserrat;
 }
 
-html{
-  scroll-behavior: smooth;
-}
-
-body {
+body, html {
   width: 100%;
   background-image: url('images/bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
