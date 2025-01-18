@@ -7,13 +7,10 @@
   font-family: Montserrat;
 }
 
-html{
-  scroll-behavior: smooth;
-}
-
-body {
+body, html {
   width: 100%;
   background: black;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
