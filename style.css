@@ -44,6 +44,37 @@ marquee {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+.header {
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  font-family: Uncial Antiqua;
+  color: #fff;
+}
+@keyframes changeColor {
+  0% {color: red;}
+  20% {color: orange;}
+  40% {color: yellow;}
+  60% {color: green;}
+  80% {color: blue;}
+  100% {color: violet;}
+}
+
+tagline {
+  display: flex;
+  margin-left: 13%;
+  justify-content: center;
+  height: 100%;
+  width: 75%;
+  font-weight: 700;
+  font-size: 1.2em;
+  border-bottom: 1px solid red;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Montserrat;
+  padding: 5px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -277,6 +308,7 @@ marquee {
     width: 100%;
     color: #b5b5b5;
     text-align: center;
+    margin-top: auto;
 }
 
 .footer-content p {
