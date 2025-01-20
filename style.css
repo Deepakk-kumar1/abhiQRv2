@@ -304,12 +304,14 @@ tagline {
 
 /* footer */
 .footer {
+    display : absolute;
     background-color: #191B1F;
     height: 120px;
     width: 100%;
     color: #b5b5b5;
     text-align: center;
     margin-top: auto;
+    position: fixed;
 }
 
 .footer-content p {
