@@ -310,7 +310,7 @@ tagline {
     width: 100%;
     color: #b5b5b5;
     text-align: center;
-    margin-top: auto;
+    bottom: 0;
     position: fixed;
 }
 
