@@ -269,7 +269,7 @@ tagline {
 
    select {
     all: unset;
-    color: #0ff;
+    color: #fff;
     background-image: linear-gradient(45deg, #000, #00000080);
     text-align: center;
     filter: drop-shadow(#0ff 0 0 0);
@@ -281,6 +281,11 @@ tagline {
     border-radius: 30px;
     font-size: 100%;
     transition: all 50ms ease-out;
+    }
+    
+    option {
+    background-color: #0ff;
+    color: black;
     }
 
   input:hover:focus::placeholder {
