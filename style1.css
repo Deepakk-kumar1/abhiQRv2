@@ -47,16 +47,8 @@ marquee {
   text-align: center;
   font-family: Uncial Antiqua;
   color: #fff;
-  animation: changeColor 3s infinite;
 }
-@keyframes changeColor {
-  0% {color: red;}
-  20% {color: orange;}
-  40% {color: yellow;}
-  60% {color: green;}
-  80% {color: blue;}
-  100% {color: violet;}
-}
+
 tagline {
   display: flex;
   margin-left: 13%;
