@@ -266,6 +266,11 @@ tagline {
     color: #0ff;
     font-weight: 600;
   }
+
+  select::placeholder {
+    color: #0ff;
+  }
+
   input:hover:focus::placeholder {
     color: transparent;
     transform: scale(1.5);
