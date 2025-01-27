@@ -284,8 +284,10 @@ tagline {
     }
     
     option {
-    background-color: #0ff;
-    color: black;
+    background-color: #234654;
+    color: white;
+    border: 1px solid black;
+
     }
 
   input:hover:focus::placeholder {
