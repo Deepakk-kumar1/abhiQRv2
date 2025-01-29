@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Neonderthaw&family=Offside&family=Protest+Guerrilla&family=Lavishly+Yours&family=Rubik+Dirt&family=Uncial+Antiqua&family=Modak&family=Euphoria+Script&family=Yeseva+One&family=Sansita+Swashed&family=Abril+Fatface&family=Rubik+Wet+Paint&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Neonderthaw&family=Offside&family=Protest+Guerrilla&family=Lavishly+Yours&family=Rubik+Dirt&family=Uncial+Antiqua&family=Modak&family=Euphoria+Script&family=Yeseva+One&family=Sansita+Swashed&family=Rozha+One&family=Abril+Fatface&family=Rubik+Wet+Paint&display=swap');
 
 * {
   margin: 0; 
@@ -48,7 +47,7 @@ a:hover {
   font-size: 2.5em;
   font-weight: 400;
   text-align: center;
-  font-family: Uncial Antiqua;
+  font-family: Rozha One&;
   color: #fff;
 }
 
