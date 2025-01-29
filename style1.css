@@ -89,68 +89,14 @@ tagline {
   position: relative;
   margin-right: 20px;
   }
-
-.nav-menu .nav-toggle {
-  font-size: 1.5em;
-  color: #fff;
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: none;
-  transition: .3s ease;
-}
-
-.nav-menu .nav-toggle:hover {
-  color: cyan;
-}
-
-.nav-menu ul {
-  font-family: Montserrat;
-  display: flex;
-  list-style: none;
-  gap: 10px;
-}
-
-.nav-menu ul li a {
+.nav-menu a {
   text-decoration: none;
   color: #fff;
-  font-size: 1em;
-  padding: 5px 10px;
-  transition: background 0.3s ease;
-}
+  }
 
-.nav-menu ul li a:hover {
-  background: #555;
-  border-radius: 5px;
-}
-
-/* Dropdown (Hidden by Default) */
-.nav-menu ul.dropdown {
-  display: none;
-  position: absolute;
-  top: 26px;
-  right: 26px;
-  height: 30vh;
-  border-radius: 10px;
-  flex-direction: column;
-  background: linear-gradient(45deg, #007BFF, #000);
-  width: 180px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.nav-menu ul.dropdown li {
-  text-align: center;
-}
-
-.nav-menu ul.dropdown li a {
-  padding: 10px;
-  display: block;
-}
-
-.nav-menu ul.dropdown li a:hover {
-  color: cyan;
-  background: linear-gradient(45deg, #007BFF, #000);
-}
+.nav-menu a:hover {
+  color: red;
+  }
 
 /* Responsive Design */
 @media (max-width: 768px) {
