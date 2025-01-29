@@ -1,9 +1,9 @@
 var options = {
       strings: [
-        "अंतः अस्ति प्रारंभः", 
-        "The End is The Beginning", 
-        "अंत ही प्रारम्भ है",
-        "ముగింపు ప్రారంభం"
+        "Welcome", 
+        "It's Abhi QR Generator", 
+        "Version - 2.0",
+        "Generate Anything in QR Code"
       ],
       typeSpeed: 30, // Speed of typing
       backSpeed: 20, // Speed of deleting text
