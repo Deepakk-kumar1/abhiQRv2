@@ -2,7 +2,7 @@ var options = {
       strings: [
         "Welcome", 
         "It's Abhi QR Generator", 
-        "Version - 2.0",
+        "version 2.0",
         "Generate Anything in QR Code"
       ],
       typeSpeed: 30, // Speed of typing
