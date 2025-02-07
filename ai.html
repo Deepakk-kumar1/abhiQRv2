@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+</head>
+<body>
+    <h1>Chat with Nandini!</h1>
+    <div id="chatbox">
+        <input type="text" id="userMessage" placeholder="Ask me anything!" />
+        <button onclick="sendMessage()">Send</button>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        async function sendMessage() {
+            const message = document.getElementById('userMessage').value;
+
+            const response = await axios.post('https://api.openai.com/v1/completions', {
+                model: "text-davinci-003",
+                prompt: message,
+                max_tokens: 150
+            }, {
+                headers: {
+                    "Authorization": "Bearer YOUR_OPENAI_API_KEY",
+                    "Content-Type": "application/json"
+                }
+            });
+
+            document.getElementById('response').innerText = response.data.choices[0].text.trim();
+        }
+    </script>
+</body>
+</html>
