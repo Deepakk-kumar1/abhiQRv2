@@ -209,7 +209,7 @@ tagline {
 .card:hover {
   --hover: #0ff;
   animation: btn 1s;
-     box-shadow: 0 0 0 5em transparent;
+     box-shadow: 0 0 5em 5em transparent;
      }
 
    @keyframes btn {
