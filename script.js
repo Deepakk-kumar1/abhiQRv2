@@ -15,5 +15,5 @@ const navToggle = document.querySelector('.nav-toggle');
 
 document.getElementById('backLink').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = '/';
+    window.location.href = 'Index.html';
 });
