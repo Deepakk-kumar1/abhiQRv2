@@ -10,4 +10,11 @@ const navToggle = document.querySelector('.nav-toggle');
 // Zooming Block
     document.addEventListener('gesturestart', (e) => e.preventDefault());
     document.addEventListener('gesturechange', (e) => e.preventDefault());
+
+// step back button
+
+document.getElementById('backLink').addEventListener('click', function(event) {
+    event.preventDefault(); // Link ka default action stop karne ke liye
+    window.history.back();  // Browser ko ek step pehle page pe le jaane ke liye
+});
  
